@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starlink México - Internet Satelital | Ofertas Exclusivas</title>
+  <meta name="description" content="Starlink internet satelital de alta velocidad. Equipos desde $2,100 MXN. Cobertura nacional, sin contratos, instalación fácil.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <svg width="120" height="28" viewBox="0 0 120 28" fill="none"><path d="M0 14C0 14 8 2 20 2C32 2 36 14 36 14C36 14 32 26 20 26C8 26 0 14 0 14Z" fill="#00d4ff"/><text x="42" y="21" fill="white" font-family="Inter" font-weight="800" font-size="20">starlink</text></svg>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#equipos">Equipos</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#cobertura">Cobertura</a></li>
+        <li><a href="#faq">Preguntas</a></li>
+      </ul>
+      <a href="#equipos" class="nav-cta">Ordenar ahora</a>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80" alt="Starlink satellite" loading="eager">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">OFERTA DE LANZAMIENTO</div>
+      <h1>Internet satelital<br><strong>sin límites</strong></h1>
+      <p>Velocidades de hasta 350 Mbps en cualquier rincón de México. Sin contratos, sin límites de datos.</p>
+      <div class="hero-actions">
+        <a href="#equipos" class="btn btn-primary">Ver equipos desde $2,100</a>
+        <a href="#cobertura" class="btn btn-outline">Verificar cobertura</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item">
+          <span class="trust-icon">✓</span>
+          <span>Envío gratis</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">✓</span>
+          <span>Sin contrato</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">✓</span>
+          <span>Garantía 2 años</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat">
+        <span class="stat-num" data-target="350">0</span><span class="stat-unit">Mbps</span>
+        <span class="stat-label">Velocidad máxima</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="25">0</span><span class="stat-unit">ms</span>
+        <span class="stat-label">Latencia promedio</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="99">0</span><span class="stat-unit">%</span>
+        <span class="stat-label">Disponibilidad</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="100">0</span><span class="stat-unit">+</span>
+        <span class="stat-label">Países con cobertura</span>
+      </div>
+    </section>
+
+  <!-- EQUIPOS -->
+  <section class="equipos" id="equipos">
+    <div class="section-header">
+      <span class="section-tag">EQUIPOS DISPONIBLES</span>
+      <h2>Elige tu kit <strong>Starlink</strong></h2>
+      <p>Todos incluyen antena, router WiFi, cable y base. Instalación en menos de 5 minutos.</p>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- STARLINK MINI -->
+      <div class="product-card" data-product="mini">
+        <div class="product-badge mini">MÁS VENDIDO</div>
+        <div class="product-img">
+          <img src="https://productimages.hepsiburada.net/s/382/1100/110000390718508.jpg" alt="Starlink Mini Kit" loading="lazy">
+        </div>
+        <div class="product-info">
+          <h3>Starlink Mini</h3>
+          <p class="product-desc">Ideal para hogares pequeños y zonas urbanas. Conexión estable para el día a día.</p>
+          <div class="product-specs">
+            <div class="spec">
+              <span class="spec-icon">📡</span>
+              <div>
+                <span class="spec-label">Alcance WiFi</span>
+                <span class="spec-value">50 metros</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">📱</span>
+              <div>
+                <span class="spec-label">Dispositivos</span>
+                <span class="spec-value">Hasta 50</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">⚡</span>
+              <div>
+                <span class="spec-label">Velocidad</span>
+                <span class="spec-value">Hasta 150 Mbps</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-price">
+            <div class="price-main">
+              <span class="currency">$</span><span class="amount">2,100</span><span class="currency">MXN</span>
+            </div>
+            <span class="price-note">Pago único · Envío gratis</span>
+          </div>
+          <button class="btn btn-primary btn-full" onclick="openOrder('Starlink Mini', 2100)">Ordenar ahora</button>
+        </div>
+      </div>
+
+      <!-- STARLINK ESTÁNDAR -->
+      <div class="product-card" data-product="estandar">
+        <div class="product-badge estandar">RECOMENDADO</div>
+        <div class="product-img">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_615539-MLU72596295588_112023-O.webp" alt="Starlink Estándar Kit" loading="lazy">
+        </div>
+        <div class="product-info">
+          <h3>Starlink Estándar</h3>
+          <p class="product-desc">Perfecto para hogares medianos y home office. Streaming y videollamadas sin interrupciones.</p>
+          <div class="product-specs">
+            <div class="spec">
+              <span class="spec-icon">📡</span>
+              <div>
+                <span class="spec-label">Alcance WiFi</span>
+                <span class="spec-value">110 metros</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">📱</span>
+              <div>
+                <span class="spec-label">Dispositivos</span>
+                <span class="spec-value">Hasta 100</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">⚡</span>
+              <div>
+                <span class="spec-label">Velocidad</span>
+                <span class="spec-value">Hasta 250 Mbps</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-price">
+            <div class="price-main">
+              <span class="currency">$</span><span class="amount">2,600</span><span class="currency">MXN</span>
+            </div>
+            <span class="price-note">Pago único · Envío gratis</span>
+          </div>
+          <button class="btn btn-primary btn-full" onclick="openOrder('Starlink Estándar', 2600)">Ordenar ahora</button>
+        </div>
+      </div>
+
+      <!-- STARLINK V3 -->
+      <div class="product-card" data-product="v3">
+        <div class="product-badge v3">GAMA ALTA</div>
+        <div class="product-img">
+          <img src="https://m.media-amazon.com/images/I/51F3bM1LJYL._AC_SL1500_.jpg" alt="Starlink V3 Kit" loading="lazy">
+        </div>
+        <div class="product-info">
+          <h3>Starlink V3</h3>
+          <p class="product-desc">Para hogares grandes y pequeñas empresas. Máximo rendimiento y alcance extendido.</p>
+          <div class="product-specs">
+            <div class="spec">
+              <span class="spec-icon">📡</span>
+              <div>
+                <span class="spec-label">Alcance WiFi</span>
+                <span class="spec-value">200 metros</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">📱</span>
+              <div>
+                <span class="spec-label">Dispositivos</span>
+                <span class="spec-value">Hasta 150</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">⚡</span>
+              <div>
+                <span class="spec-label">Velocidad</span>
+                <span class="spec-value">Hasta 350 Mbps</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-price">
+            <div class="price-main">
+              <span class="currency">$</span><span class="amount">3,900</span><span class="currency">MXN</span>
+            </div>
+            <span class="price-note">Pago único · Envío gratis</span>
+          </div>
+          <button class="btn btn-primary btn-full" onclick="openOrder('Starlink V3', 3900)">Ordenar ahora</button>
+        </div>
+      </div>
+
+      <!-- STARLINK V4 -->
+      <div class="product-card" data-product="v4">
+        <div class="product-badge v4">PREMIUM</div>
+        <div class="product-img">
+          <img src="https://www.cnet.com/a/img/resize/7e9a0db7a4a5e5a5a7b1c3f0e8a4e1c0f5a7e5a5/hub/2024/02/20/1c7d5e3a-6f8a-4b2c-9d1e-2a3b4c5d6e7f/starlink-standard-dish.jpg?auto=webp&width=1280" alt="Starlink V4 Kit" loading="lazy">
+        </div>
+        <div class="product-info">
+          <h3>Starlink V4</h3>
+          <p class="product-desc">Máximo rendimiento para empresas y operaciones industriales. La mejor tecnología Starlink.</p>
+          <div class="product-specs">
+            <div class="spec">
+              <span class="spec-icon">📡</span>
+              <div>
+                <span class="spec-label">Alcance WiFi</span>
+                <span class="spec-value">250 metros</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">📱</span>
+              <div>
+                <span class="spec-label">Dispositivos</span>
+                <span class="spec-value">Hasta 200</span>
+              </div>
+            </div>
+            <div class="spec">
+              <span class="spec-icon">⚡</span>
+              <div>
+                <span class="spec-label">Velocidad</span>
+                <span class="spec-value">Hasta 500 Mbps</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-price">
+            <div class="price-main">
+              <span class="currency">$</span><span class="amount">4,900</span><span class="currency">MXN</span>
+            </div>
+            <span class="price-note">Pago único · Envío gratis</span>
+          </div>
+          <button class="btn btn-primary btn-full" onclick="openOrder('Starlink V4', 4900)">Ordenar ahora</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COMPARISON -->
+  <section class="comparison" id="planes">
+    <div class="section-header">
+      <span class="section-tag">COMPARATIVA</span>
+      <h2>Encuentra el plan <strong>ideal</strong></h2>
+    </div>
+    <div class="comparison-table-wrap">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Característica</th>
+            <th>Mini</th>
+            <th class="highlight">Estándar</th>
+            <th>V3</th>
+            <th>V4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Precio equipo</td><td>$2,100</td><td class="highlight">$2,600</td><td>$3,900</td><td>$4,900</td></tr>
+          <tr><td>Velocidad máx.</td><td>150 Mbps</td><td class="highlight">250 Mbps</td><td>350 Mbps</td><td>500 Mbps</td></tr>
+          <tr><td>Alcance WiFi</td><td>50 m</td><td class="highlight">110 m</td><td>200 m</td><td>250 m</td></tr>
+          <tr><td>Dispositivos</td><td>50</td><td class="highlight">100</td><td>150</td><td>200</td></tr>
+          <tr><td>Latencia</td><td>25-60 ms</td><td class="highlight">20-40 ms</td><td>20-35 ms</td><td>15-25 ms</td></tr>
+          <tr><td>WiFi</td><td>WiFi 5</td><td class="highlight">WiFi 5</td><td>WiFi 6</td><td>WiFi 6E</td></tr>
+          <tr><td>Ideal para</td><td>Hogares</td><td class="highlight">Home Office</td><td>Empresas</td><td>Industria</td></tr>
+          <tr><td>Servicio mensual</td><td>$999/mes</td><td class="highlight">$999/mes</td><td>$1,499/mes</td><td>$2,499/mes</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features-section">
+    <div class="section-header">
+      <span class="section-tag">BENEFICIOS</span>
+      <h2>¿Por qué elegir <strong>Starlink</strong>?</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🌎</div>
+        <h4>Cobertura Nacional</h4>
+        <p>Llega a donde el internet tradicional no puede. Zonas rurales, montañas, costas y más.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔧</div>
+        <h4>Instalación en 5 Min</h4>
+        <p>Solo necesitas un lugar con vista al cielo. La app te guía paso a paso.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🚫</div>
+        <h4>Sin Contratos</h4>
+        <p>Paga mes a mes. Cancela cuando quieras sin penalizaciones ni letra pequeña.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h4>Sin Límite de Datos</h4>
+        <p>Descarga, streaming, videollamadas. Sin topes ocultos ni throttling.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🛡️</div>
+        <h4>Garantía 2 Años</h4>
+        <p>Todos los equipos incluyen garantía completa y soporte técnico en español.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h4>App de Control</h4>
+        <p>Monitorea velocidad, conectividad y dispositivos desde tu celular.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COBERTURA -->
+  <section class="cobertura" id="cobertura">
+    <div class="section-header">
+      <span class="section-tag">COBERTURA</span>
+      <h2>Disponible en <strong>toda México</strong></h2>
+      <p>Starlink ya opera en los 32 estados. Verifica tu zona.</p>
+    </div>
+    <div class="cobertura-content">
+      <div class="cobertura-map">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Mico_Cx10.png/800px-Mico_Cx10.png" alt="Mapa de cobertura Starlink México" loading="lazy">
+      </div>
+      <div class="cobertura-form">
+        <h3>Verifica tu código postal</h3>
+        <div class="input-group">
+          <input type="text" id="cpInput" placeholder="Ej: 06600" maxlength="5">
+          <button class="btn btn-primary" onclick="checkCoverage()">Verificar</button>
+        </div>
+        <div id="cpResult" class="cp-result"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-header">
+      <span class="section-tag">PREGUNTAS FRECUENTES</span>
+      <h2>¿Dudas? <strong>Tenemos respuestas</strong></h2>
+    </div>
+    <div class="faq-grid">
+      <details class="faq-item">
+        <summary>¿Cuánto cuesta el servicio mensual?</summary>
+        <p>El plan Residencial cuesta $999/mes, el plan Plus $1,499/mes y el Empresarial desde $2,499/mes. Sin contratos a largo plazo.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Necesito línea de vista al cielo?</summary>
+        <p>Sí, la antena necesita una vista despejada del cielo. La app incluye un verificador de obstrucciones.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo usarlo para gaming?</summary>
+        <p>Sí, con latencias de 20-40ms es ideal para gaming online. Los modelos V3 y V4 ofrecen la mejor experiencia.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cuánto tarda el envío?</summary>
+        <p>Envío estándar de 3-7 días hábiles a cualquier parte de México. Envío express disponible.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo llevarlo de viaje?</summary>
+        <p>Sí, especialmente el modelo Mini. Puedes pausar el servicio cuando no lo uses.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué incluye el kit?</summary>
+        <p>Antena Starlink, router WiFi, cable de alimentación (15m), base de montaje y guía de instalación rápida.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final-cta">
+    <div class="final-cta-content">
+      <h2>¿Listo para internet <strong>sin límites</strong>?</h2>
+      <p>Únete a millones de usuarios que ya disfrutan de conexión satelital de alta velocidad.</p>
+      <a href="#equipos" class="btn btn-primary btn-lg">Ordena tu Starlink hoy</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="logo">starlink</div>
+        <p>Internet satelital de alta velocidad para todo México.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Producto</h4>
+        <ul>
+          <li><a href="#equipos">Equipos</a></li>
+          <li><a href="#planes">Planes</a></li>
+          <li><a href="#cobertura">Cobertura</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Soporte</h4>
+        <ul>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Rastrear pedido</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Términos</a></li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Aviso legal</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Starlink México. Sitio demostrativo. No afiliado a SpaceX.</p>
+    </div>
+  </footer>
+
+  <!-- ORDER MODAL -->
+  <div class="modal-overlay" id="orderModal">
+    <div class="modal">
+      <button class="modal-close" onclick="closeOrder()">&times;</button>
+      <div class="modal-header">
+        <h3>Ordenar <span id="modalProduct">Starlink Mini</span></h3>
+        <div class="modal-price"><span id="modalPrice">$2,100</span> MXN</div>
+      </div>
+      <form id="orderForm" onsubmit="submitOrder(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nombre completo</label>
+            <input type="text" name="nombre" required placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label>Teléfono</label>
+            <input type="tel" name="telefono" required placeholder="10 dígitos">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Correo electrónico</label>
+          <input type="email" name="email" required placeholder="tu@email.com">
+        </div>
+        <div class="form-group">
+          <label>Dirección de envío</label>
+          <input type="text" name="direccion" required placeholder="Calle, número, colonia">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Código postal</label>
+            <input type="text" name="cp" required placeholder="00000">
+          </div>
+          <div class="form-group">
+            <label>Ciudad</label>
+            <input type="text" name="ciudad" required placeholder="Tu ciudad">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Confirmar orden</button>
+        <p class="form-note">Un asesor se comunicará contigo para confirmar el pago y envío.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/5215512345678?text=Hola%2C%20me%20interesa%20un%20equipo%20Starlink" class="whatsapp-float" target="_blank" rel="noopener">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="/src/tracker.js"></script>
+  <script src="/src/main.js"></script>
+</body>
+</html>
