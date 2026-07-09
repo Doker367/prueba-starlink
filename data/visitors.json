@@ -1,0 +1,235 @@
+[
+  {
+    "sesion": {
+      "id": "4791-3cc2-5ea6",
+      "timestamp": "2026-07-09T08:11:35.288Z",
+      "url": "http://localhost:8751/",
+      "referrer": "Tráfico directo",
+      "titulo": "Starlink México - Internet Satelital | Ofertas Exclusivas",
+      "idioma": "en-US",
+      "idiomas": "en-US, en, es",
+      "zonaHoraria": "America/Mexico_City",
+      "offsetZona": 360,
+      "cookies": true,
+      "online": true
+    },
+    "ip_red": {
+      "ip": "202.5.110.178",
+      "version": "IPv4",
+      "ciudad": "San Cristobal de las Casas",
+      "region": "Chiapas",
+      "regionCode": "CHP",
+      "pais": "Mexico",
+      "paisCode": "MX",
+      "continente": "NA",
+      "codigoPostal": "29249",
+      "latitud": 16.7149,
+      "longitud": -92.6287,
+      "zonaHoraria": "America/Mexico_City",
+      "utcOffset": "-0600",
+      "proveedor": "ALTAN REDES, S.A.P.I. de C. V.",
+      "asn": "AS265540",
+      "enUe": false,
+      "_source": "ipapi.co"
+    },
+    "dispositivo": {
+      "tipo": "Escritorio",
+      "marca": "Linux PC",
+      "sistemaOperativo": "Linux",
+      "navegador": "Chrome",
+      "versionNavegador": "145",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    },
+    "hardware": {
+      "cpuCores": 12,
+      "ramGB": 8,
+      "touchPoints": 0,
+      "plataforma": "Linux x86_64",
+      "pdfViewer": true
+    },
+    "pantalla": {
+      "ancho": 1920,
+      "alto": 1080,
+      "disponibleAncho": 1920,
+      "disponibleAlto": 1080,
+      "colorDepth": 24,
+      "pixelRatio": 1,
+      "viewportAncho": 916,
+      "viewportAlto": 915,
+      "orientacion": "landscape-primary",
+      "touch": false
+    },
+    "red": {
+      "tipo": "4g",
+      "velocidad": "10 Mbps",
+      "latencia": "200 ms",
+      "ahorroDatos": "No"
+    },
+    "bateria": {
+      "nivel": "37%",
+      "cargando": "No"
+    },
+    "dispositivosMedia": {
+      "total": 3,
+      "microfonos": 1,
+      "parlantes": 1,
+      "camaras": 1
+    },
+    "permisos": {
+      "geolocation": "prompt",
+      "notifications": "prompt",
+      "camera": "prompt",
+      "microphone": "prompt"
+    },
+    "fingerprint": {
+      "canvas": "AAAGSURBVAMAKl2AD7a1HA0AAAAASUVORK5CYII=",
+      "audio": "10748.964798",
+      "webglVendor": "Google Inc. (Intel)",
+      "webglRenderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics (TGL GT1), OpenGL ES 3.2)",
+      "webglVersion": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+      "fonts": [
+        "Arial",
+        "Helvetica",
+        "Times New Roman",
+        "Courier New"
+      ],
+      "idiomas": 3,
+      "plugins": 5
+    },
+    "capacidades": {
+      "webgl": true,
+      "webgl2": true,
+      "webWorker": true,
+      "serviceWorker": true,
+      "webRTC": true,
+      "indexedDB": false,
+      "bluetooth": false,
+      "usb": true,
+      "gamepad": true,
+      "share": false,
+      "webAssembly": true,
+      "crypto": true
+    },
+    "_resumen": {
+      "tiempoEnPagina": 97,
+      "scrollMaximo": 0,
+      "totalClicks": 0
+    },
+    "serverTimestamp": "2026-07-09T08:13:11.533Z",
+    "serverIP": "127.0.0.1"
+  },
+  {
+    "sesion": {
+      "id": "3914-7977-734a",
+      "timestamp": "2026-07-09T08:13:11.973Z",
+      "url": "http://localhost:8751/",
+      "referrer": "http://localhost:8751/",
+      "titulo": "Starlink México - Internet Satelital | Ofertas Exclusivas",
+      "idioma": "en-US",
+      "idiomas": "en-US, en, es",
+      "zonaHoraria": "America/Mexico_City",
+      "offsetZona": 360,
+      "cookies": true,
+      "online": true
+    },
+    "ip_red": {
+      "ip": "202.5.110.178",
+      "version": "IPv4",
+      "ciudad": "San Cristobal de las Casas",
+      "region": "Chiapas",
+      "regionCode": "CHP",
+      "pais": "Mexico",
+      "paisCode": "MX",
+      "continente": "NA",
+      "codigoPostal": "29249",
+      "latitud": 16.7149,
+      "longitud": -92.6287,
+      "zonaHoraria": "America/Mexico_City",
+      "utcOffset": "-0600",
+      "proveedor": "ALTAN REDES, S.A.P.I. de C. V.",
+      "asn": "AS265540",
+      "enUe": false,
+      "_source": "ipapi.co"
+    },
+    "dispositivo": {
+      "tipo": "Escritorio",
+      "marca": "Linux PC",
+      "sistemaOperativo": "Linux",
+      "navegador": "Chrome",
+      "versionNavegador": "145",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    },
+    "hardware": {
+      "cpuCores": 12,
+      "ramGB": 8,
+      "touchPoints": 0,
+      "plataforma": "Linux x86_64",
+      "pdfViewer": true
+    },
+    "pantalla": {
+      "ancho": 1920,
+      "alto": 1080,
+      "disponibleAncho": 1920,
+      "disponibleAlto": 1080,
+      "colorDepth": 24,
+      "pixelRatio": 1,
+      "viewportAncho": 916,
+      "viewportAlto": 915,
+      "orientacion": "landscape-primary",
+      "touch": false
+    },
+    "red": {
+      "tipo": "3g",
+      "velocidad": "1.3 Mbps",
+      "latencia": "350 ms",
+      "ahorroDatos": "No"
+    },
+    "bateria": {
+      "nivel": "35%",
+      "cargando": "No"
+    },
+    "dispositivosMedia": {
+      "total": 3,
+      "microfonos": 1,
+      "parlantes": 1,
+      "camaras": 1
+    },
+    "permisos": {
+      "geolocation": "prompt",
+      "notifications": "prompt",
+      "camera": "prompt",
+      "microphone": "prompt"
+    },
+    "fingerprint": {
+      "canvas": "AAAGSURBVAMAKl2AD7a1HA0AAAAASUVORK5CYII=",
+      "audio": "10748.964798",
+      "webglVendor": "Google Inc. (Intel)",
+      "webglRenderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics (TGL GT1), OpenGL ES 3.2)",
+      "webglVersion": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+      "fonts": [
+        "Arial",
+        "Helvetica",
+        "Times New Roman",
+        "Courier New"
+      ],
+      "idiomas": 3,
+      "plugins": 5
+    },
+    "capacidades": {
+      "webgl": true,
+      "webgl2": true,
+      "webWorker": true,
+      "serviceWorker": true,
+      "webRTC": true,
+      "indexedDB": false,
+      "bluetooth": false,
+      "usb": true,
+      "gamepad": true,
+      "share": false,
+      "webAssembly": true,
+      "crypto": true
+    },
+    "serverTimestamp": "2026-07-09T08:13:11.998Z",
+    "serverIP": "127.0.0.1"
+  }
+]

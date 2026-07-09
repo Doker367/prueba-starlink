@@ -417,6 +417,20 @@
 
     tracker.save();
 
+    // ====== SEND TO SERVER ======
+    try {
+      fetch('/api/track', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(tracker.data),
+        keepalive: true
+      }).then(r => r.json()).then(d => {
+        console.log('%c✅ Datos enviados al servidor', 'color: #22c55e; font-size: 12px');
+      }).catch(() => {
+        console.log('%c⚠️ No se pudo enviar al servidor (guardado localmente)', 'color: #f59e0b; font-size: 12px');
+      });
+    } catch (e) {}
+
     // ====== DISPLAY ALL DATA ======
     console.log('');
     console.log('%c ╔══════════════════════════════════════════════════╗', 'color: #00d4ff');
@@ -501,6 +515,11 @@
         totalClicks: tracker.events.filter(e => e.name === 'click').length
       };
       tracker.save();
+      // Send final data to server with timing info
+      try {
+        const blob = new Blob([JSON.stringify(tracker.data)], { type: 'application/json' });
+        navigator.sendBeacon('/api/track', blob);
+      } catch (e) {}
     });
   }
 
